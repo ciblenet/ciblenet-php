@@ -79,7 +79,6 @@ class Ciblenet
 	}
 	
 	function get_request($route, $call_options = array()){
-	print_r($this->_base_route.'get/'.$route);
 	    return $this->_call($call_options, CS_REST_GET, $this->_base_route.'get/'.$route);
 	}
 	
